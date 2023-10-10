@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import GeneralInformation from './components/General-information'
+import EducationForm from './components/education'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
     <GeneralInformation />
+    <EducationForm />
 
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
