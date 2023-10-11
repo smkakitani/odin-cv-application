@@ -5,6 +5,7 @@ import './App.css'
 import GeneralInformation from './components/General-information'
 import EducationForm from './components/education'
 import ExperienceForm from './components/experience'
+import ProjectForm from './components/project'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
     <GeneralInformation />
     <EducationForm />
     <ExperienceForm />
+    <ProjectForm />
 
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
