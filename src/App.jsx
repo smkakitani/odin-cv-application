@@ -4,14 +4,16 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import GeneralInformation from './components/General-information'
 import EducationForm from './components/education'
+import ExperienceForm from './components/experience'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <>
     <GeneralInformation />
     <EducationForm />
+    <ExperienceForm />
 
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
@@ -37,4 +39,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
