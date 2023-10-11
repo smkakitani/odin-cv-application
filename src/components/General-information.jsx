@@ -1,12 +1,17 @@
-function DivField({ children }) {
+import '../styles/form.css'
+import { useState } from 'react'
+
+function SaveButton() {
   return (
-    <div className="input-filed">
-      {children}
-    </div>
+    <>
+    <button>SAVE</button>
+    </>
   );
 }
 
 function GeneralInformation() {
+
+
   return (
     <div>
       <fieldset>
@@ -28,6 +33,7 @@ function GeneralInformation() {
             <label for="url">Your URL:</label>
             <input type="url" name="url" id="url" placeholder="https://exemple.com" pattern="https://.*"/>
           </div>
+          <SaveButton />
         </form>
       </fieldset>
     </div>
