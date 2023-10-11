@@ -6,6 +6,7 @@ import GeneralInformation from './components/General-information'
 import EducationForm from './components/education'
 import ExperienceForm from './components/experience'
 import ProjectForm from './components/project'
+import { OtherSkill, TechnicalSkillForm } from './components/skill'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -16,6 +17,8 @@ function App() {
     <EducationForm />
     <ExperienceForm />
     <ProjectForm />
+    <TechnicalSkillForm />
+    <OtherSkill />
 
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
