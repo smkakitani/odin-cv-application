@@ -8,18 +8,19 @@ import ExperienceForm from './components/experience'
 import ProjectForm from './components/project'
 import { OtherSkill, TechnicalSkillForm } from './components/skill'
 
+
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div>
     <GeneralInformation />
     <EducationForm />
     <ExperienceForm />
     <ProjectForm />
     <TechnicalSkillForm />
     <OtherSkill />
-    </>
+    </div>
   )
 }
 
