@@ -15,4 +15,4 @@ It's a React based project that allows users to input their information, work ex
 As the user input their information, it is displayed aside neatly formatted resume
 
 
-Link to preview: https://smkakitani.github.io/odin-library-project/
+[Link to preview](https://darling-youtiao-d8958a.netlify.app/)
