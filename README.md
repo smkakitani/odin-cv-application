@@ -1,8 +1,18 @@
-# React + Vite
+# Odin-cv-application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was made following [The Odin Project](https://www.theodinproject.com/) lessons. 
 
-Currently, two official plugins are available:
+It's a React based project that allows users to input their information, work experience, education history, worked projects and overall skills.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
+
+- React: this app was built using React JavaScript library for creating user interfaces
+- useState: hook was used to manage the application's state
+- CSS: for styling the interface
+
+## Features
+
+As the user input their information, it is displayed aside neatly formatted resume
+
+
+Link to preview: https://smkakitani.github.io/odin-library-project/
