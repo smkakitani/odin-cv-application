@@ -1,4 +1,4 @@
-function TechnicalSkillForm() {
+function TechnicalSkillForm({ handleChange }) {
   return (
     <div>
       <fieldset>
@@ -6,11 +6,15 @@ function TechnicalSkillForm() {
           <legend>Technical skills</legend>
           <div>
             <label for="skill-languages">Languages: </label>
-            <input type="text" name="skill-languages" id="skill-languages" placeholder="Python, Java, HTML/CSS, JavaScript, SQL"/>
+            <input 
+            onChange={handleChange}
+            type="text" name="languages" id="skill-languages" placeholder="Python, Java, HTML/CSS, JavaScript, SQL"/>
           </div>
           <div>
             <label for="skill-technologies">Technologies: </label>
-            <input type="text" name="skill-technologies" id="skill-technologies" placeholder="VS Code, Linux, Git/GitHub"/>
+            <input 
+            onChange={handleChange}
+            type="text" name="technologies" id="skill-technologies" placeholder="VS Code, Linux, Git/GitHub"/>
           </div>
         </form>
       </fieldset>
@@ -18,7 +22,7 @@ function TechnicalSkillForm() {
   );
 }
 
-function OtherSkill() {
+function OtherSkill({ handleChange }) {
   return (
     <div>
       <fieldset>
@@ -26,11 +30,15 @@ function OtherSkill() {
           <legend>Other skills</legend>
           <div>
             <label for="skill-idiom">Languages: </label>
-            <input type="text" name="skill-idiom" id="skill-idiom" pattern="[A-Za-z]{1,32}" placeholder="English, Brazilian Portuguese, Japanese"/>
+            <input 
+            onChange={handleChange}
+            type="text" name="languages" id="skill-idiom" pattern="[A-Za-z]{1,32}" placeholder="English, Brazilian Portuguese, Japanese"/>
           </div>
           <div>
             <label for="skill-other">Other Tools: </label>
-            <input type="text" name="skill-other" id="skill-other" pattern="[A-Za-z]{1,32}" placeholder="Photoshop, Figma, AutoCad"/>
+            <input 
+            onChange={handleChange}
+            type="text" name="tools" id="skill-other" pattern="[A-Za-z]{1,32}" placeholder="Photoshop, Figma, AutoCad"/>
           </div>
         </form>
       </fieldset>
