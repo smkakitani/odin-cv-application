@@ -20,7 +20,7 @@ function ExperienceForm({ handleChange }) {
             <label for="job-duration">Job duration: </label>
             <input 
             onChange={handleChange}
-            type="text" name="jduration" id="job-duration" maxLength="32" pattern="[A-Za-z]{1,32}" placeholder="Jan. 1999 - Jan 2019"/>
+            type="text" name="duration" id="job-duration" maxLength="32" pattern="[A-Za-z]{1,32}" placeholder="Jan. 1999 - Jan 2019"/>
           </div>
           <div>
             <label for="job-address">Job address: </label>
