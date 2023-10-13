@@ -1,15 +1,6 @@
 import '../styles/cvoutput.css'
 import { userData } from './Data';
 
-
-function SkillsDetails() {
-  return (
-    <>
-    
-    </>
-  );
-}
-
 function DisplayCv({ 
   personalData, 
   educationData, 
@@ -18,7 +9,6 @@ function DisplayCv({
   skillData,
   otherData
 }) {
-  // const personalInfo = personalData.map
   return (
     <div id="cv-field">
       <div className="cv-personal">
