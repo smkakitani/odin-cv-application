@@ -1,6 +1,4 @@
-function EducationForm() {
-  
-
+function EducationForm({ handleChange }) {
   return (
     <div>
       <fieldset>
@@ -8,19 +6,27 @@ function EducationForm() {
           <legend>Education details</legend>
           <div>
             <label for="state-university">University name: </label>
-            <input type="text" name="state-university" id="state-university" maxLength="32" pattern="[A-Za-z]{1,32}" placeholder="Meowster University"/>
+            <input 
+            onChange={handleChange}
+            type="text" name="name" id="state-university" maxLength="32" pattern="[A-Za-z]{1,32}" placeholder="Meowster University"/>
           </div>
           <div>
             <label for="degree">Degree: </label>
-            <input type="text" name="degree" id="degree" maxLength="32" pattern="[A-Za-z]{1,32}" placeholder="Bachelor of Science in Computer Science"/>
+            <input 
+            onChange={handleChange}
+            type="text" name="degree" id="degree" maxLength="32" pattern="[A-Za-z]{1,32}" placeholder="Bachelor of Science in Computer Science"/>
           </div>
           <div>
             <label for="graduation-date">Graduation year: </label>
-            <input type="text" name="graduation-date" id="graduation-date" maxLength="32" pattern="[A-Za-z]{1,32}" placeholder="1999"/>
+            <input 
+            onChange={handleChange}
+            type="text" name="year" id="graduation-date" maxLength="32" pattern="[A-Za-z]{1,32}" placeholder="1999"/>
           </div>
           <div>
             <label for="graduation-address">Graduation address: </label>
-            <input type="text" name="graduation-address" id="graduation-address" maxLength="32" pattern="[A-Za-z]{1,32}" placeholder="City, State"/>
+            <input 
+            onChange={handleChange}
+            type="text" name="address" id="graduation-address" maxLength="32" pattern="[A-Za-z]{1,32}" placeholder="City, State"/>
           </div>
         </form>
       </fieldset>
