@@ -31,7 +31,6 @@ function GeneralInformation({ handleChange, handleSubmit }) {
             onChange={handleChange}
             type="url" name="url" id="url" placeholder="https://exemple.com" pattern="https://.*" required/>
           </div>
-          <button type='submit' onClick={handleSubmit}>SUBMIT</button>
         </form>
       </fieldset>
     </div>

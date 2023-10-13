@@ -63,17 +63,11 @@ function App() {
     });
   }
 
-  function handleSubmitEvent(event) {
-
-    console.log(personal);
-  }
-
   return (
     <>
     <div id='input-field'>
       <GeneralInformation
         handleChange={handlePersonalInputChange}
-        handleSubmit={handleSubmitEvent}
       />
       <EducationForm 
         handleChange={handleEducationInputChange}
