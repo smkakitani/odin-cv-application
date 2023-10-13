@@ -1,8 +1,10 @@
 export const userData = {
-  name: 'Meowster Purrfect',
-  email: 'myemail@mail.com',
-  phone: '(11)1234-1234',
-  url: 'https://exemple.com',
+  personal: {
+    name: 'Meowster Purrfect',
+    email: 'myemail@mail.com',
+    phone: '(11)1234-1234',
+    url: 'https://exemple.com'
+  },
   education: {
     name: 'Meowster University',
     degree: 'Bachelor of Science in Computer Science',
